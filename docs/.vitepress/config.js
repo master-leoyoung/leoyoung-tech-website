@@ -19,9 +19,9 @@ export default defineConfig({
         {
           text: 'TeamMind',
           items: [
-            { text: 'Introduction', link: '/teammind/introduction' },
-            { text: 'Features', link: '/teammind/features' },
-            { text: 'Documentation', link: '/teammind/documentation' },
+            { text: 'Why build it', link: '/teammind/Why build it' },
+            { text: 'Scenarios', link: '/teammind/Scenarios' },
+            { text: 'Features', link: '/teammind/Features' },
             { text: 'Installation', link: '/teammind/installation' }
           ]
         }

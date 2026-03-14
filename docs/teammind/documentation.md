@@ -5,18 +5,21 @@ Comprehensive documentation for TeamMind users and developers.
 ## User Guide
 
 ### Getting Started
+
 - Account setup
 - Workspace creation
 - Team invitation
 - Basic navigation
 
 ### Collaboration
+
 - Creating projects
 - Adding team members
 - Sharing documents
 - Real-time editing
 
 ### Project Management
+
 - Task creation
 - Milestone setup
 - Progress tracking
@@ -25,18 +28,21 @@ Comprehensive documentation for TeamMind users and developers.
 ## Developer Guide
 
 ### API Reference
+
 - Authentication
 - Endpoints
 - Data models
 - Error handling
 
 ### Integration
+
 - Webhooks
 - Third-party integrations
 - Custom apps
 - API keys
 
 ### Best Practices
+
 - Security guidelines
 - Performance optimization
 - Data management
@@ -45,18 +51,21 @@ Comprehensive documentation for TeamMind users and developers.
 ## Administration
 
 ### User Management
+
 - User roles
 - Permissions
 - Team organization
 - Access control
 
 ### Settings
+
 - Workspace configuration
 - Notification settings
 - Security settings
 - Integration settings
 
 ### Monitoring
+
 - Activity logs
 - Usage analytics
 - Performance metrics
