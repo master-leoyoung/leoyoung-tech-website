@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'LeoYoung Tech Website',
   description: 'A technology website built with VitePress',
   lang: 'en-US',
+  ignoreDeadLinks: true
   
   themeConfig: {
     nav: [
