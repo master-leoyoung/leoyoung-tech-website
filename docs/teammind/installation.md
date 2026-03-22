@@ -5,12 +5,14 @@ Step-by-step installation guide for TeamMind.
 ## System Requirements
 
 ### Minimum Requirements
+
 - Operating System: Windows 10+, macOS 10.14+, or Linux
 - RAM: 4GB minimum, 8GB recommended
 - Disk Space: 500MB for installation
 - Network: Stable internet connection
 
 ### Recommended Requirements
+
 - Operating System: Latest version of your OS
 - RAM: 16GB or more
 - Disk Space: 2GB or more
@@ -21,20 +23,24 @@ Step-by-step installation guide for TeamMind.
 ### Method 1: Desktop Application
 
 #### Windows
+
 1. Download the installer from the official website
 2. Run the installer executable
 3. Follow the installation wizard
 4. Launch TeamMind from the Start menu
 
 #### macOS
+
 1. Download the .dmg file from the official website
 2. Open the downloaded file
 3. Drag TeamMind to your Applications folder
 4. Launch TeamMind from Applications
 
 #### Linux
+
 1. Download the .deb or .rpm package
 2. Install using your package manager:
+   
    ```bash
    sudo dpkg -i teammind.deb
    # or
@@ -62,12 +68,14 @@ docker run -d -p 8080:8080 --name teammind teammind/teammind:latest
 ## Configuration
 
 ### Initial Setup
+
 1. Launch TeamMind
 2. Create your account or sign in
 3. Set up your workspace
 4. Invite team members
 
 ### Environment Variables
+
 ```bash
 # For self-hosted installations
 TEAMMIND_PORT=8080
@@ -90,17 +98,21 @@ After installation, verify that TeamMind is working correctly:
 ### Common Issues
 
 **Issue: Installation fails on Windows**
+
 - Solution: Run installer as Administrator
 
 **Issue: Application won't start**
+
 - Solution: Check system requirements and ensure all dependencies are installed
 
 **Issue: Can't connect to server**
+
 - Solution: Check your internet connection and firewall settings
 
 ### Getting Help
 
 If you encounter any issues during installation:
+
 - Check our [Documentation](./documentation)
 - Visit our [Support Center](https://support.teammind.com)
 - Contact our support team

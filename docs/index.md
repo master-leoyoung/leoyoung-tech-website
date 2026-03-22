@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: LeoYoung Tech
-  text: Technology & Innovation
+  text: Focus on Enterprise AI Service
   tagline: Building innovative solutions for modern challenges
   actions:
     - theme: brand

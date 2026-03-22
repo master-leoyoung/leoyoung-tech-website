@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'TeamMind', link: '/teammind/introduction' },
-      { text: 'QoScore', link: '/qoscore/introduction' },
+      { text: 'QoScore', link: '/qoscore/Framework' },
       { text: 'Blog', link: '/blog/' },
       { text: 'About', link: '/about/' }
     ],
@@ -22,7 +22,7 @@ export default defineConfig({
             { text: 'Why build it', link: '/teammind/Why build it' },
             { text: 'Scenarios', link: '/teammind/Scenarios' },
             { text: 'Features', link: '/teammind/Features' },
-            { text: 'Installation', link: '/teammind/installation' }
+            { text: 'Installation', link: '/teammind/Installation' }
           ]
         }
       ],
@@ -30,10 +30,19 @@ export default defineConfig({
         {
           text: 'QoScore',
           items: [
-            { text: 'Introduction', link: '/qoscore/introduction' },
-            { text: 'Features', link: '/qoscore/features' },
-            { text: 'Documentation', link: '/qoscore/documentation' },
-            { text: 'Installation', link: '/qoscore/installation' }
+            { text: 'Framework', link: '/qoscore/Framework' },
+            {
+              text: 'Platform',
+              collapsed: false,
+              items: [
+                { text: 'Introduction', link: '/qoscore/Introduction' },
+                { text: 'Features', link: '/qoscore/Features' },
+                { text: 'Editions', link: '/qoscore/Editions' },
+                { text: 'Under the hood', link: '/qoscore/Under the hood' },
+                { text: 'Installation', link: '/qoscore/Installation' },
+                { text: 'Demo & Github', link: '/qoscore/Demo & Github' }
+              ]
+            }
           ]
         }
       ],

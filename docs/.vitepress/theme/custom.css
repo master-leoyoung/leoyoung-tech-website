@@ -1,0 +1,19 @@
+.VPHero .main .name {
+  max-width: none !important;
+  white-space: nowrap !important;
+}
+
+.VPHero .main .name .clip {
+  white-space: nowrap !important;
+}
+
+.VPHero .main .text {
+  max-width: none !important;
+  white-space: nowrap !important;
+  font-size: clamp(28px, 3.5vw, 48px) !important;
+}
+
+.VPHero .main .tagline {
+  max-width: none !important;
+  white-space: nowrap !important;
+}

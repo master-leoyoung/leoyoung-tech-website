@@ -5,6 +5,7 @@ Step-by-step installation guide for QoScore.
 ## System Requirements
 
 ### Minimum Requirements
+
 - Operating System: Windows 10+, macOS 10.14+, or Linux
 - RAM: 4GB minimum, 8GB recommended
 - Disk Space: 1GB for installation
@@ -12,6 +13,7 @@ Step-by-step installation guide for QoScore.
 - Network: Stable internet connection
 
 ### Recommended Requirements
+
 - Operating System: Latest version of your OS
 - RAM: 16GB or more
 - Disk Space: 5GB or more
@@ -23,6 +25,7 @@ Step-by-step installation guide for QoScore.
 ### Method 1: Desktop Application
 
 #### Windows
+
 1. Download the installer from the official website
 2. Run the installer executable as Administrator
 3. Follow the installation wizard
@@ -30,6 +33,7 @@ Step-by-step installation guide for QoScore.
 5. Launch QoScore from the Start menu
 
 #### macOS
+
 1. Download the .dmg file from the official website
 2. Open the downloaded file
 3. Drag QoScore to your Applications folder
@@ -37,14 +41,19 @@ Step-by-step installation guide for QoScore.
 5. Complete the initial setup wizard
 
 #### Linux
+
 1. Download the .deb or .rpm package
+
 2. Install using your package manager:
+   
    ```bash
    sudo dpkg -i qoscore.deb
    # or
    sudo rpm -i qoscore.rpm
    ```
+
 3. Launch QoScore from your applications menu
+
 4. Configure database connection
 
 ### Method 2: Web Application
@@ -97,6 +106,7 @@ npm start
 ## Configuration
 
 ### Environment Variables
+
 ```bash
 # Database Configuration
 DB_HOST=localhost
@@ -126,6 +136,7 @@ MAX_FILE_SIZE=10485760
 ### Database Setup
 
 #### PostgreSQL
+
 ```bash
 # Create database
 createdb qoscore
@@ -138,6 +149,7 @@ npm run seed
 ```
 
 #### MySQL
+
 ```bash
 # Create database
 mysql -u root -p
@@ -163,20 +175,25 @@ After installation, verify that QoScore is working correctly:
 ### Common Issues
 
 **Issue: Database connection fails**
+
 - Solution: Check database credentials and ensure database server is running
 
 **Issue: Application won't start**
+
 - Solution: Check system requirements and ensure all dependencies are installed
 
 **Issue: Can't connect to server**
+
 - Solution: Check your internet connection and firewall settings
 
 **Issue: Slow performance**
+
 - Solution: Ensure adequate RAM and CPU resources, optimize database queries
 
 ### Getting Help
 
 If you encounter any issues during installation:
+
 - Check our [Documentation](./documentation)
 - Visit our [Support Center](https://support.qoscore.com)
 - Contact our support team

@@ -1,5 +1,4 @@
 ---
-
 title: Features
 
 date: 2026-03-10
@@ -89,7 +88,6 @@ SiteMind™ is available in the Commercial Edition.
 | --------------- | ----------- |
 | Web Browser     | ✅ Available |
 | Windows Desktop | ✅ Available |
-| macOS Desktop   | ✅ Available |
 | Android         | ✅ Available |
 | iOS             | ✅ Available |
 
